@@ -1,5 +1,12 @@
-body{background: black;}
-.main{background: white; width: 400px; height:550px; font-family: 'Source Sans Pro', sans-serif;}
+body{
+    background:black;
+}
+.main{
+    background: white; 
+    width: 400px; 
+    height:550px; 
+    font-family: 'Source Sans Pro', sans-serif;
+}
 h1{
     font-size: 15px;
     padding: 8px;
