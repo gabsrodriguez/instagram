@@ -1,16 +1,18 @@
 body{
     background:black;
 }
+/* margin auto centers the main div.I added a margin top % to add space/center the div from the top. */
+/* Height was deleted because there was too much space on the botton of the main div. The width alone works for these dimensions. */
 .main{
     background: white; 
     width: 400px; 
     /* height:550px;  */
     margin: auto;
-    margin-top: 5%;
-    margin-bottom: 20%;
+    margin-top: 10%;
+    /* margin-bottom: 20%; */
     font-family: 'Source Sans Pro', sans-serif;
-    background-position-x: 50%;
-    background-position-y: 50%
+    /* background-position-x: 50%;
+    background-position-y: 50% */
 }
 h1{
     font-size: 15px;
@@ -26,6 +28,8 @@ h1{
     float:right;
     font-size: 25px;
 }
+
+/* display: inline; displays the icon horizontally. */
 .footer{
     padding: 10px;
     display: inline;
