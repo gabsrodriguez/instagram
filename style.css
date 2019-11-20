@@ -1,10 +1,12 @@
 body{
     background:black;
 }
+
+
 /* margin auto centers the main div.I added a margin top % to add space/center the div from the top. */
 /* Height was deleted because there was too much space on the botton of the main div. The width alone works for these dimensions. */
 .main{
-    background: white; 
+    background-color: white; 
     width: 400px; 
     /* height:550px;  */
     margin: auto;
@@ -14,9 +16,12 @@ body{
     /* background-position-x: 50%;
     background-position-y: 50% */
 }
+.name{
+    padding: 10px;
+}
 h1{
     font-size: 15px;
-    padding: 8px;
+    margin: 0px;
 }
 .icon1{
     padding: 10px;
@@ -29,13 +34,15 @@ h1{
     font-size: 25px;
 }
 
-/* display: inline; displays the icon horizontally. */
+/* the width element is allwoing the icons to display horizontally NOT the "display: in-line" element. */
 .footer{
-    padding: 10px;
-    display: inline;
+    padding: 6px;
+    /* display: inline; */
+    
 }
 .icon-left{
-    padding-top: 10px;
+    padding-top: 1px;
+    padding-left: 11px;
     display:inline-block;
     width: 50%;
     font-size: 25px;
@@ -44,10 +51,31 @@ h1{
     text-align: right;
     float: right;
     font-size: 25px;
-    padding: 10px;
+    padding: 1px;
+    padding-right: 8px;
 }
 p{
     padding-left: 10px;
     padding-right: 10px;
     font-size: 15px;
+}
+
+
+
+
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: white;
+  }
+  .head,
+  .body,
+  .footer,
+  .bio,
+  .icon-left,
+  .icon-right,
+  p{
+    background-color: black;
+      color: white;
+  }
+  
 }
