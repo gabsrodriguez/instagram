@@ -5,7 +5,12 @@ body{
     background: white; 
     width: 400px; 
     height:550px; 
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
     font-family: 'Source Sans Pro', sans-serif;
+    background-position-x: 50%;
+    background-position-y: 50%;
 }
 h1{
     font-size: 15px;
